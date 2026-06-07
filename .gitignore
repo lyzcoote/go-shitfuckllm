@@ -1,0 +1,31 @@
+# Environment
+.env
+
+# Generated data and model files
+data/train.jsonl
+data/vocab.json
+data/smoke_test.jsonl
+data/messages.db
+data/messages.db-journal
+data/messages.db-wal
+data/messages.db-shm
+checkpoints/
+
+# Harvested / imported datasets (regenerate with --mode=harvest / --mode=import-hf)
+data/harvest.jsonl
+data/divina.jsonl
+
+# Go build artifacts
+bin/
+*.exe
+*.out
+awesomeProject
+
+# IDE
+.idea/
+*.iml
+.vscode/
+
+# OS
+.DS_Store
+Thumbs.db
